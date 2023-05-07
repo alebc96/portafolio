@@ -1,0 +1,21 @@
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.head-title-projects{
+    text-align: center;
+    font-size: 28px;
+}
+
+.head-title-container{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

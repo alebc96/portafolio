@@ -1,0 +1,38 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.presentacion > h2{
+    font-size: 32px;
+}
+
+.presentacion > p{
+    font-size: 21px;
+}
+
+.image-container{
+    background-color: #6E07F3;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.image-container > img{
+    width: 220px;
+}
+
+.image-decoration{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-decoration > img{
+    width: 60%
+}

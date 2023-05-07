@@ -1,0 +1,33 @@
+.header-container{
+    display: flex;
+    background-color: #f7f7f7;
+    height: 6rem;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    padding: 0px 4rem;
+    align-items: center;
+}
+
+.header-container > h1{
+    color: #6E07F3;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.header-right > a{
+    border: 2px solid #6E07F3;
+    padding: 0.6rem;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #6E07F3;
+    transition: 0.5s ease;
+}
+
+.header-right > a:hover{
+    border: 2px solid #6E07F3;
+    padding: 0.6rem;
+    background-color: #6E07F3;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #fff;
+}

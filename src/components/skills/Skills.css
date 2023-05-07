@@ -1,0 +1,45 @@
+.skill-photo{
+    padding: 1rem;
+    background-color: #5BE9B9;
+    border-radius: 50%;
+
+}
+
+.skill-photo > img{
+    width: 50px;
+}
+
+.skills-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill-card{
+    border: 2px solid #2f2f2f70;
+    border-radius: 20px;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: 0.3s ease-in;
+}
+
+.skill-card:hover{
+    transform: translateY(-10px)
+}
+
+.text-card-container h3, h4{
+    color: #6E07F3;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.text-card-container{
+    text-align: center;
+}
