@@ -25,7 +25,7 @@ const proyects = [
     name: "ComprasApp frontend",
     link: "https://github.com/alebc96/comprasapp-frontend.git",
     image: comprasAppFront,
-    github: "https://github.com/alebc96/comprasapp-frontend.git",
+    github: "https://comprassapp.netlify.app/login",
     tools: ["AngularJs", "HTML", "CSS"]
   },
   {
