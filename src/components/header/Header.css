@@ -16,7 +16,7 @@
 
 .header-right > a{
     border: 2px solid #6E07F3;
-    padding: 0.6rem;
+    padding: 0.6rem 1.2rem;
     text-decoration: none;
     border-radius: 20px;
     color: #6E07F3;
@@ -25,7 +25,6 @@
 
 .header-right > a:hover{
     border: 2px solid #6E07F3;
-    padding: 0.6rem;
     background-color: #6E07F3;
     text-decoration: none;
     border-radius: 20px;

@@ -1,25 +1,31 @@
-.form-container{
-    width: 100%;
+.form-container {
+    width: 90%;
+    height: 60%;
     margin: 0 auto;
 }
 
-.form-body{
+.form-body {
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.6rem;
     align-items: center;
 }
-.input-container{
-    width: 80%;
+
+.form-body>h2 {
+    font-size: 28px
+}
+
+.input-container {
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.input-container > input{
+.input-container>input {
     width: 100%;
     padding: 0.8rem;
     font-size: 18px;
@@ -27,26 +33,30 @@
     border-radius: 10px;
 }
 
-.input-container > label{
+.input-container>label {
     font-size: 20px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
 
-.input-container > textarea{
+.input-container>textarea {
     width: 100%;
     padding: 0.8rem;
     font-size: 18px;
     border-radius: 10px;
 }
 
-.button-container{
+.button-container {
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-container > button{
+.button-container>button {
     padding: 0.9rem;
-    width: 40%;
+    width: 60%;
+    margin-top: 0.6rem;
     border-radius: 20px;
     font-size: 20px;
     background-color: #6E07F3;
@@ -55,13 +65,18 @@
     transition: 0.4s ease-out;
 }
 
-.button-container > button:hover{
+.button-container>button:hover {
     background-color: transparent;
     border: 2px solid #6E07F3;
     color: #6E07F3;
 }
 
-.input-container > input:focus,
-.input-container > textarea:focus {
-  border-color: #6E07F3;
+.input-container input:focus,
+.input-container textarea:focus {
+    border: none;
+}
+
+.span-error{
+    margin-top: 5px;
+    color: #dd3232;
 }

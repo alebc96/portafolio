@@ -10,10 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@types/aos": "^3.0.4",
+    "@types/react-toastify": "^4.1.0",
     "aos": "^2.3.4",
+    "emailjs": "^4.0.2",
+    "formik": "^2.2.9",
+    "material-react-toastify": "^2.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "react-toastify": "^9.1.2",
+    "yup": "^1.1.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

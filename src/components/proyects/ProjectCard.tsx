@@ -18,7 +18,7 @@ export const ProjectCard = ({project}: ProjectProps) => {
         </div>
         <div className="tech-tools">
           {project.tools.map(el=>(
-            <p>{el}</p>
+            <p key={el}>{el}</p>
           ))}
         </div>
       </div>
