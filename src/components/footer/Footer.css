@@ -22,11 +22,10 @@
 .contact-social-media{
     margin-top: 1rem;
     width: 20%;
-    min-width: 25np0px;
+    min-width: 250px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 1.3rem;
     background-color: #5BE9B9;
 }
