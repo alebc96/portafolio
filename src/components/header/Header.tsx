@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 const Header = () => {
   const location = useLocation()
-  console.log(location.pathname == '/contact')
+  //console.log(location.pathname == '/contact')
   return (
     <nav className='header-container'>
         <h1>aleBc</h1>

@@ -25,6 +25,20 @@
     width: 220px;
 }
 
+@media screen and (max-width: 600px) {
+    .image-container > img{
+        width: 110px;
+    } 
+
+    .presentacion{
+        width: 80%;
+    }
+
+    .image-decoration > img{
+        width: 80%
+    }
+}
+
 .image-decoration{
     margin-top: 4rem;
     width: 100%;
