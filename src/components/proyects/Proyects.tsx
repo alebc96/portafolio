@@ -3,6 +3,8 @@ import tictac from "../../assets/tic-tac-toe.png";
 import comprasApp from "../../assets/ComprasApp.png";
 import comprasAppFront from "../../assets/ComprasApp-front.png";
 import linkedinPic from "../../assets/LinkedinClone.png"
+import ntBackend from "../../assets/tn-backend.png"
+import ntReact from "../../assets/tn-react.png"
 import { ProjectCard } from "./ProjectCard";
 import Project from "../../types/Project";
 
@@ -34,6 +36,20 @@ const proyects = [
     image: linkedinPic,
     github: "https://github.com/alebc96/linkedin-clone.git",
     tools: ["React Js", "HTML", "CSS"]
+  },
+  {
+    name: "Social Network",
+    link: "https://the-network-react.netlify.app/",
+    image: ntReact,
+    github: "https://github.com/alebc96/the-network-react.git",
+    tools: ["React Js", "HTML", "CSS"]
+  },
+  {
+    name: "Social Network backend",
+    link: "https://github.com/alebc96/the-network.git",
+    image: ntBackend,
+    github: "https://github.com/alebc96/the-network.git",
+    tools: ["NodeJs", "MongoDB", "Firebase"]
   },
 ];
 
