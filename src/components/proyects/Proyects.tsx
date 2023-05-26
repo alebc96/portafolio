@@ -30,7 +30,7 @@ const proyects = [
   },
   {
     name: "Linkedin clone",
-    link: "https://github.com/alebc96/linkedin-clone.git",
+    link: "https://linkedin2-clone.netlify.app/",
     image: linkedinPic,
     github: "https://github.com/alebc96/linkedin-clone.git",
     tools: ["React Js", "HTML", "CSS"]
