@@ -8,7 +8,7 @@ import backend_img from '../../assets/back.svg'
 const Skills = () => {
 
     useEffect(() => {
-     AOS.init({duration: 1500})
+        AOS.init({duration: 1500})
     }, [])
     
 

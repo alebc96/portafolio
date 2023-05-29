@@ -7,6 +7,9 @@ import ntBackend from "../../assets/tn-backend.png"
 import ntReact from "../../assets/tn-react.png"
 import { ProjectCard } from "./ProjectCard";
 import Project from "../../types/Project";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const proyects = [
   {
@@ -54,12 +57,20 @@ const proyects = [
 ];
 
 export const Proyects = () => {
+
+  useEffect(() => {
+    AOS.init({duration: 1500})
+  }, [])
+
+
   return (
     <>
       <div className="head-title-container">
         <h2 className="head-title-projects">Things I've done</h2>
       </div>
-
+      <div className="alert-container" data-aos="zoom-in">
+        <p>I use Render for the backend and Netlify for the frontend, so the initial load time may take a while (especially in Render). I hope you are patient :D</p>
+      </div>
       <div className="projects-container">
         {proyects.map((project: Project) => (
           <ProjectCard project={project} key={project.name}></ProjectCard>

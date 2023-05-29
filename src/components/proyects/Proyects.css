@@ -19,3 +19,18 @@
     align-items: center;
     justify-content: center;
 }
+
+.alert-container > p{
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+}
+
+.alert-container{
+    width: 75%;
+    background-color: #6E07F3;
+    line-height: 2;
+    padding: 2rem;
+    border-radius: 30px;
+    margin: 2rem auto;
+}
