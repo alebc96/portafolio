@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <h2>aleBc</h2>
+      <p className="blackbeard">Feel free to contact me or check what i'm working on</p>
       <p className="blackbeard">"Peoples dreams don't ever end!"</p>
       <p className="blackbeard">-Blackbeard (One Piece)-</p>
       <section className="contact-social-media">

@@ -85,8 +85,10 @@
 .tech-tools > p{
     padding: 5px 10px;
     margin-top: 2rem;
+    font-weight: bold;
+    background-color: #fff;
     border: 1px solid #fff;
-    color: #fff;
+    color: #6E07F3;
     border-radius: 20px;
     font-size: 12px;
 }
