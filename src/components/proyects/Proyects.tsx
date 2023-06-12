@@ -57,7 +57,7 @@ const proyects = [
   },
   {
     name: "eCommerce MUI",
-    link: "https://material-store.netlify.app/home",
+    link: "https://material-store.netlify.app",
     image: storeEcommerce,
     github: "https://github.com/alebc96/eCommerce.git",
     tools: ["AngularJs", "API", "TypeScript", "HTML", "MUI"]
