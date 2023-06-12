@@ -76,10 +76,10 @@
 .tech-tools{
     width: 80%;
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
 }
 
 .tech-tools > p{
