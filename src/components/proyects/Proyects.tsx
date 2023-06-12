@@ -2,6 +2,7 @@ import "./Proyects.css";
 import tictac from "../../assets/tic-tac-toe.png";
 import comprasApp from "../../assets/ComprasApp.png";
 import comprasAppFront from "../../assets/ComprasApp-front.png";
+import storeEcommerce from "../../assets/ecommerce01.png";
 import linkedinPic from "../../assets/LinkedinClone.png"
 import ntBackend from "../../assets/tn-backend.png"
 import ntReact from "../../assets/tn-react.png"
@@ -54,6 +55,13 @@ const proyects = [
     github: "https://github.com/alebc96/the-network.git",
     tools: ["NodeJs", "MongoDB", "Firebase"]
   },
+  {
+    name: "eCommerce MUI",
+    link: "https://material-store.netlify.app/home",
+    image: storeEcommerce,
+    github: "https://github.com/alebc96/eCommerce.git",
+    tools: ["AngularJs", "API", "TypeScript", "HTML", "MUI"]
+  }
 ];
 
 export const Proyects = () => {
