@@ -3,7 +3,7 @@ import tictac from "../../assets/tic-tac-toe.png";
 import comprasApp from "../../assets/ComprasApp.png";
 import comprasAppFront from "../../assets/ComprasApp-front.png";
 import storeEcommerce from "../../assets/ecommerce01.png";
-import linkedinPic from "../../assets/LinkedinClone.png"
+import ecommerceBandW from "../../assets/ecommerce.png"
 import ntBackend from "../../assets/tn-backend.png"
 import ntReact from "../../assets/tn-react.png"
 import { ProjectCard } from "./ProjectCard";
@@ -35,11 +35,11 @@ const proyects = [
     tools: ["AngularJs", "HTML", "CSS"]
   },
   {
-    name: "Linkedin clone",
-    link: "https://linkedin2-clone.netlify.app/",
-    image: linkedinPic,
-    github: "https://github.com/alebc96/linkedin-clone.git",
-    tools: ["React Js", "HTML", "CSS"]
+    name: "eCommerce",
+    link: "https://bandwstore.netlify.app",
+    image: ecommerceBandW,
+    github: "https://github.com/alebc96/eCommerceBW.git",
+    tools: ["AngularJs", "HTML", "CSS", "node js", "json-server", "bootstrap"]
   },
   {
     name: "Social Network",
