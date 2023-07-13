@@ -41,3 +41,9 @@
     border-radius: 45%;
     transition: 0.3s ease-in;
 }
+
+.text-footer{
+    text-align: center;
+    padding: 0.3rem;
+    color: #fff;
+}

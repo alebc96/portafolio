@@ -4,6 +4,7 @@ import comprasApp from "../../assets/ComprasApp.png";
 import comprasAppFront from "../../assets/ComprasApp-front.png";
 import storeEcommerce from "../../assets/ecommerce01.png";
 import ecommerceBandW from "../../assets/ecommerce.png"
+import moviesApp from "../../assets/movies.png"
 import ntBackend from "../../assets/tn-backend.png"
 import ntReact from "../../assets/tn-react.png"
 import { ProjectCard } from "./ProjectCard";
@@ -61,6 +62,13 @@ const proyects = [
     image: storeEcommerce,
     github: "https://github.com/alebc96/eCommerce.git",
     tools: ["AngularJs", "API", "TypeScript", "HTML", "MUI"]
+  },
+  {
+    name: "Fakeflix",
+    link: "https://fakeflix-tmdb.netlify.app",
+    image: storeEcommerce,
+    github: "https://github.com/alebc96/movies-tmdb.git",
+    tools: ["AngularJs", "API", "TypeScript", "HTML", "Bootstrap", "CSS"]
   }
 ];
 
