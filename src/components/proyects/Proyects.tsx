@@ -66,7 +66,7 @@ const proyects = [
   {
     name: "Fakeflix",
     link: "https://fakeflix-tmdb.netlify.app",
-    image: moviesApps,
+    image: moviesApp,
     github: "https://github.com/alebc96/movies-tmdb.git",
     tools: ["AngularJs", "API", "TypeScript", "HTML", "Bootstrap", "CSS"]
   }
